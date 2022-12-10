@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+
+
+.scroll{
+    scroll-behavior: smooth;
+}
+
+
+
+
+h1 {
+    display: flex;
+    font-size: 30px;
+    padding: 1%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(42, 136, 136);
+    color: #ecf1e8;
+}
+
+.Picture{
+    display: flex;
+    max-width: 20px;
+    background-color: #fff;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 10px ;
+    margin: 20px ;
+  
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 380px;
+    padding-right: 5%;
+  }
+
+
+nav a {
+    color: #ecf1e8;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+    footer {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    background-color: #13293d;
+    color: #fff;
+    font-size: 27px;
+  }
+
+    .Headers {
+    margin: 3% 5%;
+    font-size: 180%;
+    font-family: serif;
+  }
+
+ main {
+    display: flex;
+    flex: 1 1 0;
+    max-width: 1200px;
+    margin: 15px;
+  }
+
+
+ .Paragraphs {
+    margin: 2% 5%;
+    font-family: serif;
+    font-size: 25px;
+    border-bottom: 1px solid #d8a47f;
+  }
+
+  @media screen and (max-width: 768px) {
+    header, main {
+      flex-direction: column;
+    }
+  
+    section {
+      padding-right: 0;
+    }
+  
+    aside {
+      width: 100%;
+      text-align: center;
+    }
+  }
